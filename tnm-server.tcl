@@ -1,5 +1,5 @@
 #
-# server example using tcludp
+# server example using Tnm
 #
 #
 
