@@ -10,7 +10,9 @@ We are using tcludp from https://github.com/mpcjanssen/tcludp
 
 * tnm-client.tcl - run a client that reads from stdin and sends lines to localhost port 7652 using Tnm
 
-* tcludp-server.tcl - run a server that reads from port 7652 and emits what it gets to stdout
+* tcludp-server.tcl - run a server using tcludp that reads from port 7652 and emits what it gets to stdout
+
+* tnm-server.tcl - run a server using Tnm for udp that reads from port 7652 and emits what it gets to stdout
 
 
 ### FreeBSD
