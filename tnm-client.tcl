@@ -1,4 +1,8 @@
-
+#
+# client example using Tnm
+#
+# type lines and they are sent to a port on localhost
+#
 
 package require Tnm
 
@@ -9,7 +13,7 @@ proc main {{argv ""}} {
 
 	while {[gets stdin line] >= 0} {
 		puts "writing '$line'"
-		$udp send localhost 7652 $line
+		$udp send localhost 7652 "$line\n"
 	}
 }
 
